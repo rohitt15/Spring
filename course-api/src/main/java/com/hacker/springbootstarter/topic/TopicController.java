@@ -44,4 +44,11 @@ public class TopicController {
 		//here we are passing the Topic class object as reference where we want to insert the data
 		topService.getAddTopic(topic);
 	}
+	
+	//to add modify the data we used the put method
+	@RequestMapping(method=RequestMethod.PUT,value="/topic/{id}")
+	public void updateTopic(@RequestBody Topic topic,@PathVariable  String id) {
+		topService.updateTopice(id,topic);
+		
+	}
 }
