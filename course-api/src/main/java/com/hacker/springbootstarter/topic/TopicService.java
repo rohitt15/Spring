@@ -16,4 +16,18 @@ public class TopicService {
 	public List<Topic> getAllTopice(){
 		return topics;
 	}
+	
+	public Topic getTopic(String id) {
+		for(Topic top:topics) {
+			if(top.getId().equalsIgnoreCase(id))
+				return top;
+			}
+		return null;
+		
+	}
+	//here we are using lambda expression stream api method
+	/*public Topic getTopic(String id) {
+		return topics.stream().filter(t ->t.getId().equals(id)).findFirst().get();
+		
+	}*/
 }
