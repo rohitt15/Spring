@@ -47,4 +47,17 @@ public class TopicService {
 			}
 		}
 	}
+
+	public void deleteTopice(String id) {
+		for (int i=0;i<topics.size();i++) {
+			Topic t=topics.get(i);
+			
+			if(t.getId().equals(id)) {
+				topics.remove(i);
+			}
+			
+		}
+	//we can delete also using lambda expression delete method also	
+//		topics.removeIf(t -> t.getId().equals(id));
+	}
 }

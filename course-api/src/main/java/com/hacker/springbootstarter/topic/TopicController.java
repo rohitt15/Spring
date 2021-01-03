@@ -51,4 +51,12 @@ public class TopicController {
 		topService.updateTopice(id,topic);
 		
 	}
+	
+	//to add delete  the data we used the delete method
+		@RequestMapping(method=RequestMethod.DELETE,value="/topic/{id}")
+		public void deleteTopic(@PathVariable  String id) {
+			topService.deleteTopice(id);
+			
+		}
+
 }
