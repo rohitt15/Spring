@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Thu Jan 14 23:32:40 IST 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0177-0210-5359-000005263820 
+on database directory memory:/home/rohit/Desktop/data/study/spring/course-api-data/b21c2a3c-8a6b-4c97-a283-ac712780123e with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
+Loaded from file:/home/rohit/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Private Build
+java.runtime.version=1.8.0_275-8u275-b01-0ubuntu1~18.04-b01
+user.dir=/home/rohit/Desktop/data/study/spring/course-api-data
+os.name=Linux
+os.arch=amd64
+os.version=4.15.0-130-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
